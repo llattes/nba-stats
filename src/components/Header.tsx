@@ -6,6 +6,6 @@ interface HeaderInterface {
 
 const Header: FC<HeaderInterface> = ({ content }) => {
     return (<h1 data-testid="heading">{content}</h1>);
-}
+};
 
 export default Header;
